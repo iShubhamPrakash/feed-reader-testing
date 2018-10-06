@@ -14,12 +14,18 @@ Jasmine is an open source testing framework for JavaScript. It aims to run on an
 
 1. Download [this](https://github.com/i-shubhamprakash/feed-reader-testing.git) repository as zip and extract it on your local computer.
 
-or
+   or
 
-In your terinal type the following command and hit Enter:
+   In your terinal type the following command and hit Enter:
 
  ```bash
-  git clone https://github.com/i-shubhamprakash/feed-reader-testing.git
+    git clone https://github.com/i-shubhamprakash/feed-reader-testing.git
 ```
 
-2.
+2. Open the index.html file in your browser.
+
+3. The test will automatically run and give you the results.
+
+4. You can find the all the test suite written in feedreader.js which can be found at following path:
+
+> /jasmine/spec/feedreader.js

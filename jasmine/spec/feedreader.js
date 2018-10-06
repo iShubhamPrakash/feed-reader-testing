@@ -108,7 +108,7 @@ $(function () {
 
         it("has at least 1 entry after loadFeed function is called", function (done) {
             var entry = document.querySelector('.feed .entry');
-            expect(entry.length).toBeGreaterThan(0);
+            expect(entry.innerHTML.length).toBeGreaterThan(0);
             done();
         });
     });
